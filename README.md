@@ -69,11 +69,32 @@ You are tasked with constructing a Deep Neural Network (DNN) model to solve a cl
 
 #### Requirements
 
-* **Implement the DNNModel class that satisfies the following criteria:
+* **Implement the DNNModel class that satisfies the following criteria:**
   * An input layer connected to a hidden layer.
   * A ReLU activation function for non-linearity.
   * An output layer with a single unit for regression.
   * Experiment with different numbers of layers and hidden units to optimize performance.
   * Ensure the final layer has a single output unit
 
+### 6. TensorBoard 
+You are tasked with using TensorBoard to monitor the training progress of a linear regression model in PyTorch. TensorBoard provides a visual interface to track metrics such as loss during training, making it easier to analyze and debug your model.
 
+### Requirements
+
+* **TensorBoard Integration**:
+
+  * Set up TensorBoard using torch.utils.tensorboard.SummaryWriter.
+  * Log the training loss after each epoch.
+
+* **Visualization**:
+  
+  * Start TensorBoard using the command:
+  * tensorboard --logdir=runs
+  * Visualize the loss curve during training.
+  * Constraints
+  
+  * Ensure that TensorBoard logs are saved in a directory named runs.
+  * The solution must handle multiple epochs and log the loss consistently.
+  * Save the model and load the model from the saved path
+  
+  
