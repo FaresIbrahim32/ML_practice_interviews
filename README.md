@@ -63,5 +63,17 @@ You are tasked with implementing the Huber Loss as a custom loss function in PyT
   * Use it to compute and optimize the loss during model training.
 * **Constraints:**
   * The implementation must handle both scalar and batch inputs for true values ($y$) and predicted values ($\hat{y}$).
+ 
+### 5. Custom DNN ( Deep Neural Network)
+You are tasked with constructing a Deep Neural Network (DNN) model to solve a classification/regression task using PyTorch. The objective is to predict target values from synthetic data exhibiting a non-linear relationship.
+
+#### Requirements
+
+* **Implement the DNNModel class that satisfies the following criteria:
+  * An input layer connected to a hidden layer.
+  * A ReLU activation function for non-linearity.
+  * An output layer with a single unit for regression.
+  * Experiment with different numbers of layers and hidden units to optimize performance.
+  * Ensure the final layer has a single output unit
 
 
